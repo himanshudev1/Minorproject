@@ -39,7 +39,7 @@ hr {
 }
 /* Header Styling */
 header {
-  height: 220px;
+  height: 110px;
   background-color: floralwhite;
 }
 header .brand {
@@ -60,25 +60,25 @@ header .logo img {
   margin-right: 10px;
 }
 header .logo p.big-logo {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
-  color: oldlace;
+  color: #2f4f4f;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 10px;
 }
 header .logo p.small-logo {
-  font-size: 24px;
+  font-size: 14px;
   font-weight: bold;
   color: rgb(219, 184, 118);
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 header .shop-icon {
-	color: #eee;
+  color: #eee;
   width: 90px;
   display: flex;
-  justify-content: 	space-between;
+  justify-content: space-between;
   align-items: center;
 }
 header .shop-icon img {
@@ -115,8 +115,8 @@ header .dropdown-menu ul li a {
 header .dropdown-menu ul li a:hover {
   color: var(--khakiDark);
 }
-header .dropdown-menu wishlist-item{
-	color: red;
+header .dropdown-menu wishlist-item {
+  color: red;
 }
 header .wishlist-item {
   min-width: 300px;
