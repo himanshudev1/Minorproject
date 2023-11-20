@@ -69,7 +69,6 @@ header .logo p.big-logo {
 }
 header .logo p.small-logo {
   font-size: 14px;
-  font-weight: bold;
   color: rgb(219, 184, 118);
   text-transform: uppercase;
   letter-spacing: 3px;
