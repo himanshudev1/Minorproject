@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <header>
+  </head>
+  <body>
+    <div id="navbar">
         <div class="container">
           <div class="brand">
             <div class="logo">
               <a href="index.html">
-                <img src="img/icons/online_shopping.png" />
+                <img src="img/URBAN ETHIC.png" alt="logo" />
                 <div class="logo-text">
                   <p class="big-logo">Urban Ethic</p>
                   <p class="small-logo">Find your Deals!</p>
@@ -37,7 +37,9 @@
                       name="search"
                       placeholder="Search"
                     />
-                    <img src="img/icons/search.png" />
+                    <button class="btn-search">
+                      <img src="img/icons/search.png" />
+                    </button>
                   </div>
                 </form>
               </div>
@@ -55,38 +57,14 @@
               </div>
               <div class="dropdown">
                 <img src="img/icons/heart.png" />
-                <div class="dropdown-menu wishlist-item">My WishList</div>
+                <div class="dropdown-menu wishlist-item">
+                  <a href="wishlist.html">View Wishlist</a>
+                </div>
               </div>
               <div class="dropdown">
                 <img src="img/icons/shopping_cart.png" />
                 <div class="dropdown-menu cart-item">
-                  <table border="1">
-                    <thead>
-                      <tr>
-                        <th>Image</th>
-                        <th>Product Name</th>
-                        <th class="center">Price</th>
-                        <th class="center">Qty.</th>
-                        <th class="center">Amount</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td><img src="img/product/img1.jpg" /></td>
-                        <td>product name</td>
-                        <td class="center">1200</td>
-                        <td class="center">2</td>
-                        <td class="center">2400</td>
-                      </tr>
-                      <tr>
-                        <td><img src="img/product/img2.jpg" /></td>
-                        <td>product name</td>
-                        <td class="center">1500</td>
-                        <td class="center">2</td>
-                        <td class="center">3000</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <a href="cart.html">View Cart</a>
                 </div>
               </div>
             </div>
@@ -95,7 +73,7 @@
           <!-- brand -->
         </div>
         <!-- container -->
-      </header>
-      <!-- header -->
-</body>
+     
+    </div>
+  </body>
 </html>
