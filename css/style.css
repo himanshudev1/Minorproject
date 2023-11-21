@@ -223,11 +223,22 @@ main {
 main .slider {
   height: 450px;
   position: relative;
+  height: auto;
 }
 main .slider img {
   width: 100%;
   height: 450px;
   object-fit: cover;
+}
+#about-comp {
+  color: #2f4f4f;
+  text-decoration: underline solid;
+  text-emphasis: black;
+  font-size: larger;
+}
+#about-ending {
+  background-color: #bdb76b;
+  font-size: larger;
 }
 main .slider .slider-text {
   position: absolute;
@@ -489,6 +500,10 @@ main .about .heading h2 {
   text-decoration: none;
   letter-spacing: 1px;
   margin-bottom: 10px;
+}
+.dev-name {
+  font-weight: bold;
+  display: inline-block;
 }
 main .about p {
   letter-spacing: 0.6;
