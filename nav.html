@@ -4,76 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="navbar">
-        <div class="container">
-          <div class="brand">
-            <div class="logo">
-              <a href="index.html">
-                <img src="img/URBAN ETHIC.png" alt="logo" />
-                <div class="logo-text">
-                  <p class="big-logo">Urban Ethic</p>
-                  <p class="small-logo">Find your Deals!</p>
-                </div>
-              </a>
+      <div class="container">
+        <div class="brand">
+          <div class="logo">
+            <a href="index.html">
+              <img src="img/URBAN ETHIC.png" alt="logo" />
+              <div class="logo-text">
+                <p class="big-logo">Urban Ethic</p>
+                <p class="small-logo">Find your Deals!</p>
+              </div>
+            </a>
+          </div>
+          <!-- logo -->
+          <div class="menu-bar">
+            <div class="menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
             </div>
-            <!-- logo -->
-            <div class="menu-bar">
-              <div class="menu">
+            <div class="search-bar">
+              <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="search"
+                    placeholder="Search"
+                  />
+                  <button class="btn-search">
+                    <img src="img/icons/search.png" />
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- menu -->
+          <div class="shop-icon">
+            <div class="dropdown">
+              <img src="img/icons/account.png" />
+              <div class="dropdown-menu">
                 <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="shop.html">Shop</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="account.html">My Account</a></li>
+                  <li><a href="orders.html">My Orders</a></li>
                 </ul>
               </div>
-              <div class="search-bar">
-                <form>
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="search"
-                      placeholder="Search"
-                    />
-                    <button class="btn-search">
-                      <img src="img/icons/search.png" />
-                    </button>
-                  </div>
-                </form>
+            </div>
+            <div class="dropdown">
+              <img src="img/icons/heart.png" />
+              <div class="dropdown-menu wishlist-item">
+                <a href="wishlist.html">View Wishlist</a>
               </div>
             </div>
-            <!-- menu -->
-            <div class="shop-icon">
-              <div class="dropdown">
-                <img src="img/icons/account.png" />
-                <div class="dropdown-menu">
-                  <ul>
-                    <li><a href="account.html">My Account</a></li>
-                    <li><a href="orders.html">My Orders</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="dropdown">
-                <img src="img/icons/heart.png" />
-                <div class="dropdown-menu wishlist-item">
-                  <a href="wishlist.html">View Wishlist</a>
-                </div>
-              </div>
-              <div class="dropdown">
-                <img src="img/icons/shopping_cart.png" />
-                <div class="dropdown-menu cart-item">
-                  <a href="cart.html">View Cart</a>
-                </div>
+            <div class="dropdown">
+              <img src="img/icons/shopping_cart.png" />
+              <div class="dropdown-menu cart-item">
+                <a href="cart.html">View Cart</a>
               </div>
             </div>
-            <!-- shop icons -->
           </div>
-          <!-- brand -->
+          <!-- shop icons -->
         </div>
-        <!-- container -->
-     
+        <!-- brand -->
+      </div>
+      <!-- container -->
     </div>
   </body>
 </html>
